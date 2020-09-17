@@ -13,6 +13,7 @@ def play():
 def generate_name(choice):
     try:
         if choice == "Dragon":
+            # make_dragon_name()
             first_name = input("What is your first name?\n").capitalize()
             birth_month = input("What month were you born? Enter a number from 1 - 12\n")
             print(dragon_name(first_name, birth_month))
@@ -25,5 +26,13 @@ def generate_name(choice):
         print('Error')
     finally:
         play()
+
+# def make_dragon_name():
+#     first_name = input("What is your first name?\n").capitalize()
+#     if first_name.isalpha() == False:
+#         print("Please only enter letters")
+#         make_dragon_name()
+#     birth_month = input("What month were you born? Enter a number from 1 - 12\n")
+#     print(dragon_name(first_name, birth_month))
 
 play()
