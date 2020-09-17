@@ -2,9 +2,8 @@ from dragon_name_generator import dragon_name
 from penguin_name_generator import penguin_name
 
 def play():
-    choice = input("Do you want to know your Dragon name or Penguin name? Please enter 'Dragon' or 'Penguin'.\n")
-    # exit if choice == 'exit' else generate_name(choice)
-    if choice == "exit":
+    choice = input("Do you want to know your Dragon name or Penguin name?\nPlease enter 'Dragon' or 'Penguin'.\nType 'Exit' to quit.\n").capitalize()
+    if choice == "Exit":
         exit
     elif choice == "Dragon" or choice == "Penguin":
         generate_name(choice)
