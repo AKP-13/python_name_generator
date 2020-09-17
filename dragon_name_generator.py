@@ -57,8 +57,7 @@ dragon_months = {
     "12": "The Annihilator"
 }
 
-first_name = input("What is your first name?\n")
+# print(f"Your Dragon name is {initials[first_name[0]]} {dragon_months[birth_month]}")
 
-birth_month = input("What month were you born? Enter a number from 1 - 12\n")
-
-print(f"Your Dragon name is {initials[first_name[0]]} {dragon_months[birth_month]}")
+def dragon_name (first_name, birth_month):
+    return f"Your Dragon name is {initials[first_name[0]]} {dragon_months[birth_month]}"
