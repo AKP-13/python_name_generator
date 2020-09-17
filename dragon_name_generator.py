@@ -57,8 +57,6 @@ dragon_months = {
     "12": "The Annihilator"
 }
 
-
-
 # print(f"Your Dragon name is {initials[first_name[0]]} {dragon_months[birth_month]}")
 
 def dragon_name (first_name, birth_month):
