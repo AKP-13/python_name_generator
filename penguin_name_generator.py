@@ -1,16 +1,16 @@
 months = {
-    "January": "The Icy",
-    "February": "The Slippery",
-    "March": "Shiverson",
-    "April": "The Coldrageous",
-    "May": "The Brrrave",
-    "June": "Clubperson",
-    "July": "Iceberg",
-    "August": "Icicle",
-    "September": "Frosty",
-    "October": "Chilly",
-    "November": "Breezy",
-    "December": "Christmas"
+    "1": "The Icy",
+    "2": "The Slippery",
+    "3": "Shiverson",
+    "4": "The Coldrageous",
+    "5": "The Brrrave",
+    "6": "Clubperson",
+    "7": "Iceberg",
+    "8": "Icicle",
+    "9": "Frosty",
+    "10": "Chilly",
+    "11": "Breezy",
+    "12": "Christmas"
 }
 
 male_initials = {
@@ -71,15 +71,9 @@ female_initials = {
     "Z": "Zelda"
 }
 
-first_name = input("What is your first name?\n")
-
-gender = input("What is your gender? Please enter M or F.\n").capitalize()
-
-birth_month = input("What month were you born?\n").capitalize()
-
-
-if gender == "M":
-    print(f"Your Penguin name is {male_initials[first_name[0]]} {months[birth_month]}")
-else:
-    print(f"Your Penguin name is {female_initials[first_name[0]]} {months[birth_month]}")
+def penguin_name (first_name, birth_month, gender):
+    if gender == "M":
+        return(f"Your Penguin name is {male_initials[first_name[0]]} {months[birth_month]}")
+    else:
+        return(f"Your Penguin name is {female_initials[first_name[0]]} {months[birth_month]}")
     
