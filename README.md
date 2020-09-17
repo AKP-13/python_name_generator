@@ -10,5 +10,3 @@
 
 ## Contributors
 Alex Peirson ([@AKP-13](https://github.com/AKP-13)) & Atheer Musa ([@atheermusa](https://github.com/atheermusa))
-
-updated from the master branch
