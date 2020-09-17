@@ -1,18 +1,3 @@
-months = {
-    "1": "January",
-    "2": "February",
-    "3": "March",
-    "4": "April",
-    "5": "May",
-    "6": "June",
-    "7": "July",
-    "8": "August",
-    "9": "September",
-    "10": "October",
-    "11": "November",
-    "12": "December"
-}
-
 initials = {
     "A": "Abrasax",
     "B": "Bessie",
@@ -56,8 +41,6 @@ dragon_months = {
     "11": "The Craven",
     "12": "The Annihilator"
 }
-
-# print(f"Your Dragon name is {initials[first_name[0]]} {dragon_months[birth_month]}")
 
 def dragon_name (first_name, birth_month):
     return f"Your Dragon name is {initials[first_name[0]]} {dragon_months[birth_month]}"
