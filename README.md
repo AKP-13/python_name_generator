@@ -10,11 +10,13 @@ A python application that allows users to choose whether to generate a dragon an
 
 - Fork and clone this repo.
 - `cd` into `python_name_generator`.
-- Run `python app.py`
-
-## Technologies
+- Run `python app.py`.
 
 ## Future Features
+
+- Validating user input
+  - Check for non letter inputs on name and gender
+  - Check for non numerical inputs on birth month
 
 ## Contributors
 Alex Peirson ([@AKP-13](https://github.com/AKP-13)) & Atheer Musa ([@atheermusa](https://github.com/atheermusa))
