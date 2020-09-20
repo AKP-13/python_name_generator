@@ -1,8 +1,12 @@
 # Penguin/Dragon Name Generator
 
-## Project Description
+A python application that allows users to choose whether to generate a dragon and or penguin name based on their first name, birth month and gender.
 
 ## Installation & Useage
+
+- Fork and clone this repo.
+- `cd` into `python_name_generator`.
+- Run `python app.py`
 
 ## Technologies
 
